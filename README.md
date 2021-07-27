@@ -12,3 +12,6 @@ The environment is included here as "environment.yml", and can be cloned via "co
 
 ## Coin Cropper
 To use the coin cropper, simply specify the location of the coin image to be cropped in "edge_test.py". Then execute "python edge_test.py" and the script returns a cropped image with the specified name. The cropping is done through use of the OpenCV package and HoughCircles routine. The HoughCircles routine identifies the edge of the coin, then a mask is applied which crops the image accordingly. An example of the edge identification and cropped image result is provided below.
+
+![alt text](https://github.com/sgiles13/coin_grader/blob/main/circle_test.png?raw=true)
+![alt text](https://github.com/sgiles13/coin_grader/blob/main/crop_test3.png?raw=true)
